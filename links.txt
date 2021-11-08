@@ -1,0 +1,18 @@
+github:
+https://github.com/roshini2705/Firstlinux.git
+
+cloud:
+https://labs.alchemycloud.co.in
+user name: user426
+pwd: Alc@123
+ubuntu : roshini99
+
+LMS:
+https://lms.training-support.net/alchemy
+user name: thbs email
+pwd: pa$$w0rd
+
+SQL:
+https://dev.mysql.com/downloads/installer/
+
+https://sreeleathersonline.com/?gclid=Cj0KCQjw8p2MBhCiARIsADDUFVEPVhf-LYi7KXyA_kQbjyaZmeqVQrWN-iUd5z6kiClnH3jQ-5N7HZ8aAhooEALw_wcB
