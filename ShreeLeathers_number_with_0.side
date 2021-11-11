@@ -1,0 +1,115 @@
+{
+  "id": "e83ccdba-08fc-4d04-a9f3-e805e5733c37",
+  "version": "2.0",
+  "name": "ShreeLeathers",
+  "url": "https://sreeleathers.com",
+  "tests": [{
+    "id": "3ab0a730-bc6f-45d3-bf19-c86e1145e6eb",
+    "name": "number starting with 0 is taken",
+    "commands": [{
+      "id": "dd359659-5ee1-4fff-b559-b01cc1980acb",
+      "comment": "",
+      "command": "open",
+      "target": "/customer/address",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3578b0c-c367-4b16-aca6-90779ccde54e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1100x568",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8ae89bf-df5b-403e-9bb1-6653523169ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icons-config",
+      "targets": [
+        ["css=.icons-config", "css:finder"],
+        ["xpath=//div[@id='sticky-header']/div/div[3]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9db1896f-62a1-47ce-82bf-a736eca947b7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=.first:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//div[@id='sticky-header']/div/div[3]/div[3]/div/div[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sreeleathers.com/customer/account/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4654016-11eb-450a-9243-69f20132d5f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Edit Address",
+      "targets": [
+        ["linkText=Edit Address", "linkText"],
+        ["css=.col-1 > address > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Edit Address')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://sreeleathers.com/customer/address/edit/id/63620/')]", "xpath:href"],
+        ["xpath=//address/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Edit Address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a784918-ed4f-45a3-b225-8169c694468e",
+      "comment": "",
+      "command": "click",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49dfb254-64ad-45f5-ad9c-1421014e883a",
+      "comment": "",
+      "command": "type",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "0123456789"
+    }, {
+      "id": "ae4e358a-1576-4e1a-a63f-64828d4c62f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(3) > span",
+      "targets": [
+        ["css=.button:nth-child(3) > span", "css:finder"],
+        ["xpath=//form[@id='form-validate']/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Save Address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cef97c27-57cf-4dde-9864-4ea5ccd266da",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3ab0a730-bc6f-45d3-bf19-c86e1145e6eb"]
+  }],
+  "urls": ["https://sreeleathers.com/"],
+  "plugins": []
+}

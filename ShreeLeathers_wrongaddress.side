@@ -1,0 +1,341 @@
+{
+  "id": "10e82de1-77ee-451f-86b9-c640a39c7769",
+  "version": "2.0",
+  "name": "ShreeLeathers",
+  "url": "https://sreeleathers.com",
+  "tests": [{
+    "id": "9c40a4ed-2b7a-42f3-978c-1da657a216fb",
+    "name": "Wrong address is taken",
+    "commands": [{
+      "id": "867fc529-b8d6-40ae-a0d0-32c28a3a2d74",
+      "comment": "",
+      "command": "open",
+      "target": "/customer/account/login/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfbbeff0-8ce7-41ee-933e-963c48e4b848",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "986x568",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8f69b43-8992-419c-aded-90eb0f102bc7",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58bec53c-7b3c-45a9-9a7c-455623804b9a",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/input", "xpath:position"]
+      ],
+      "value": "shailaja@gmail.com"
+    }, {
+      "id": "d4dc2a3a-b49d-421f-bed7-376fd1f04964",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13d00f04-212d-47b0-a0c3-26196a069083",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "shailaja"
+    }, {
+      "id": "a6589939-b31c-4e11-8927-941a5a5145ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=#send2 > span > span",
+      "targets": [
+        ["css=#send2 > span > span", "css:finder"],
+        ["xpath=//button[@id='send2']/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21847c7b-aeca-4f55-8ddf-e94dce37c5c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02854b23-1af6-46e1-b657-d145b0fff34c",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "shailajagn"
+    }, {
+      "id": "8fc95e77-35ab-45dd-9f52-c5a6d4f4cde4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#send2 > span",
+      "targets": [
+        ["css=#send2 > span", "css:finder"],
+        ["xpath=//button[@id='send2']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d3012fd-90a2-40c0-82c5-20dc42e83ba8",
+      "comment": "",
+      "command": "click",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16282c0a-12a1-47b3-81af-48d7b088e8c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "0000000000"
+    }, {
+      "id": "05622f00-4a10-4abb-b7f7-cd7d385a517d",
+      "comment": "",
+      "command": "click",
+      "target": "id=street_1",
+      "targets": [
+        ["id=street_1", "id"],
+        ["name=street[]", "name"],
+        ["css=#street_1", "css:finder"],
+        ["xpath=//input[@id='street_1']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bca070dc-6766-471a-ac94-50a6407e7ba7",
+      "comment": "",
+      "command": "type",
+      "target": "id=street_1",
+      "targets": [
+        ["id=street_1", "id"],
+        ["name=street[]", "name"],
+        ["css=#street_1", "css:finder"],
+        ["xpath=//input[@id='street_1']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "826d0860-314f-4a10-ac60-1b069f688874",
+      "comment": "",
+      "command": "click",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["name=city", "name"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e394b423-718f-4433-8132-95a1caba0d44",
+      "comment": "",
+      "command": "type",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["name=city", "name"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Brooklyn"
+    }, {
+      "id": "2daa28ab-01df-4551-a854-ea5288b4ac34",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=region_id",
+      "targets": [
+        ["id=region_id", "id"],
+        ["name=region_id", "name"],
+        ["css=#region_id", "css:finder"],
+        ["xpath=//select[@id='region_id']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-340,-241.1999969482422"
+    }, {
+      "id": "75f8c3f1-8a26-46a2-8a2f-7072a079ad10",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=region_id",
+      "targets": [
+        ["id=region_id", "id"],
+        ["name=region_id", "name"],
+        ["css=#region_id", "css:finder"],
+        ["xpath=//select[@id='region_id']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-340,-241.1999969482422"
+    }, {
+      "id": "ce9e0a20-0de9-49cc-8d7a-9c9e87aa25e6",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=region_id",
+      "targets": [
+        ["id=region_id", "id"],
+        ["name=region_id", "name"],
+        ["css=#region_id", "css:finder"],
+        ["xpath=//select[@id='region_id']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-340,-241.1999969482422"
+    }, {
+      "id": "c9fda410-ddb0-4ec2-a578-bea780d907b1",
+      "comment": "",
+      "command": "click",
+      "target": "id=region_id",
+      "targets": [
+        ["id=region_id", "id"],
+        ["name=region_id", "name"],
+        ["css=#region_id", "css:finder"],
+        ["xpath=//select[@id='region_id']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0aca2448-dc31-4f8f-bf96-661060cc9d65",
+      "comment": "",
+      "command": "select",
+      "target": "id=region_id",
+      "targets": [],
+      "value": "label=DELHI"
+    }, {
+      "id": "62a22905-225f-4a63-8af5-c772fb5c817e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#region_id > option:nth-child(7)",
+      "targets": [
+        ["css=#region_id > option:nth-child(7)", "css:finder"],
+        ["xpath=//option[@value='492']", "xpath:attributes"],
+        ["xpath=//select[@id='region_id']/option[7]", "xpath:idRelative"],
+        ["xpath=//option[7]", "xpath:position"],
+        ["xpath=//option[contains(.,'DELHI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a481a8a-249e-4fe4-adfa-203e6d0c6685",
+      "comment": "",
+      "command": "click",
+      "target": "id=zip",
+      "targets": [
+        ["id=zip", "id"],
+        ["name=postcode", "name"],
+        ["css=#zip", "css:finder"],
+        ["xpath=//input[@id='zip']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67c42f8f-32ad-4de3-a9d0-93c27df91d7a",
+      "comment": "",
+      "command": "type",
+      "target": "id=zip",
+      "targets": [
+        ["id=zip", "id"],
+        ["name=postcode", "name"],
+        ["css=#zip", "css:finder"],
+        ["xpath=//input[@id='zip']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "a5d556f0-e598-4772-bd25-aab41cb6138b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(3) > span > span",
+      "targets": [
+        ["css=.button:nth-child(3) > span > span", "css:finder"],
+        ["xpath=//form[@id='form-validate']/div[3]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "30f02a84-6cf2-42f5-9994-f75ecdd48895",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9c40a4ed-2b7a-42f3-978c-1da657a216fb"]
+  }],
+  "urls": ["https://sreeleathers.com/"],
+  "plugins": []
+}

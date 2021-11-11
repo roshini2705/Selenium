@@ -1,0 +1,309 @@
+{
+  "id": "0de4eb9e-2b28-442e-a2a8-bda9500fbc37",
+  "version": "2.0",
+  "name": "ShreeLeathers",
+  "url": "https://sreeleathers.com",
+  "tests": [{
+    "id": "cacd67f2-13cb-45d3-8bb9-6a2c994bfc7e",
+    "name": "Wrong zip code",
+    "commands": [{
+      "id": "6247dcb8-9b3c-48ce-9647-690556f8e0e5",
+      "comment": "",
+      "command": "open",
+      "target": "/customer/address",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2f9d00a-6bb0-4513-8af6-f2faffb540fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1055x568",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0aabbe2f-07ff-4aa9-9673-8735d8d8a926",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icons-config",
+      "targets": [
+        ["css=.icons-config", "css:finder"],
+        ["xpath=//div[@id='sticky-header']/div/div[3]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01978a5b-3dab-4b37-95cf-391ceb89ef0d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=.first:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//div[@id='sticky-header']/div/div[3]/div[3]/div/div[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sreeleathers.com/customer/account/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "847b6d9e-c6f4-4f82-b92d-0320b75ea7d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icons-config",
+      "targets": [
+        ["css=.icons-config", "css:finder"],
+        ["xpath=//div[@id='sticky-header']/div/div[3]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2ee3849-677f-4f2d-a57d-fc6bfaa8b4e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(2) > span > span",
+      "targets": [
+        ["css=.button:nth-child(2) > span > span", "css:finder"],
+        ["xpath=//div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c0c4261-b7db-4001-8070-ed8d13b8c408",
+      "comment": "",
+      "command": "click",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17024d4e-bdbb-4198-ac52-ef3f274e016c",
+      "comment": "",
+      "command": "type",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "1234567890"
+    }, {
+      "id": "4b2fe57e-4adf-4586-9b6e-9cfacbf3eda3",
+      "comment": "",
+      "command": "click",
+      "target": "id=street_1",
+      "targets": [
+        ["id=street_1", "id"],
+        ["name=street[]", "name"],
+        ["css=#street_1", "css:finder"],
+        ["xpath=//input[@id='street_1']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8edbf53-b8fe-4d38-8734-f656fe2fadf0",
+      "comment": "",
+      "command": "type",
+      "target": "id=street_1",
+      "targets": [
+        ["id=street_1", "id"],
+        ["name=street[]", "name"],
+        ["css=#street_1", "css:finder"],
+        ["xpath=//input[@id='street_1']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div/input", "xpath:position"]
+      ],
+      "value": "CVS123"
+    }, {
+      "id": "5647dc5d-4d06-41af-93f7-fd9ec24d44ac",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=street_1",
+      "targets": [
+        ["id=street_1", "id"],
+        ["name=street[]", "name"],
+        ["css=#street_1", "css:finder"],
+        ["xpath=//input[@id='street_1']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "9956148a-e59d-4ec4-a31d-cef835316efd",
+      "comment": "",
+      "command": "type",
+      "target": "id=street_1",
+      "targets": [
+        ["id=street_1", "id"],
+        ["name=street[]", "name"],
+        ["css=#street_1", "css:finder"],
+        ["xpath=//input[@id='street_1']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div/input", "xpath:position"]
+      ],
+      "value": "CVS123"
+    }, {
+      "id": "c58f4d67-bf38-433d-9ba7-cfc69edd51af",
+      "comment": "",
+      "command": "click",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["name=city", "name"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40c25d23-0ff4-4370-8f7a-316c23832d43",
+      "comment": "",
+      "command": "type",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["name=city", "name"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Canada"
+    }, {
+      "id": "32972656-8cb1-4eb4-b7b1-a102f2e2aca8",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=region_id",
+      "targets": [
+        ["id=region_id", "id"],
+        ["name=region_id", "name"],
+        ["css=#region_id", "css:finder"],
+        ["xpath=//select[@id='region_id']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-319.5,-423.20001220703125"
+    }, {
+      "id": "d71ce70c-8666-4c12-88aa-20309520144e",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=region_id",
+      "targets": [
+        ["id=region_id", "id"],
+        ["name=region_id", "name"],
+        ["css=#region_id", "css:finder"],
+        ["xpath=//select[@id='region_id']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-319.5,-423.20001220703125"
+    }, {
+      "id": "db05104e-bb26-4050-a348-9e717131a860",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=region_id",
+      "targets": [
+        ["id=region_id", "id"],
+        ["name=region_id", "name"],
+        ["css=#region_id", "css:finder"],
+        ["xpath=//select[@id='region_id']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-319.5,-423.20001220703125"
+    }, {
+      "id": "547dacbb-47eb-42db-a0f5-27aa655767b1",
+      "comment": "",
+      "command": "click",
+      "target": "id=region_id",
+      "targets": [
+        ["id=region_id", "id"],
+        ["name=region_id", "name"],
+        ["css=#region_id", "css:finder"],
+        ["xpath=//select[@id='region_id']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62a2a6e0-fae0-4554-bc56-31e051713c26",
+      "comment": "",
+      "command": "select",
+      "target": "id=region_id",
+      "targets": [],
+      "value": "label=KARNATAKA"
+    }, {
+      "id": "17c997ff-a5d9-46ce-9b35-feeaec874798",
+      "comment": "",
+      "command": "click",
+      "target": "css=#region_id > option:nth-child(13)",
+      "targets": [
+        ["css=#region_id > option:nth-child(13)", "css:finder"],
+        ["xpath=//option[@value='511']", "xpath:attributes"],
+        ["xpath=//select[@id='region_id']/option[13]", "xpath:idRelative"],
+        ["xpath=//option[13]", "xpath:position"],
+        ["xpath=//option[contains(.,'KARNATAKA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7df781a2-b5e9-4e8b-88a9-98af5c9bedf8",
+      "comment": "",
+      "command": "click",
+      "target": "id=zip",
+      "targets": [
+        ["id=zip", "id"],
+        ["name=postcode", "name"],
+        ["css=#zip", "css:finder"],
+        ["xpath=//input[@id='zip']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79fe49c5-1a1c-4e3f-887a-a1a6fbd00e0c",
+      "comment": "",
+      "command": "type",
+      "target": "id=zip",
+      "targets": [
+        ["id=zip", "id"],
+        ["name=postcode", "name"],
+        ["css=#zip", "css:finder"],
+        ["xpath=//input[@id='zip']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "101"
+    }, {
+      "id": "2b6e0bf8-6a7d-445e-895f-1deb8570b6c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(3) > span > span",
+      "targets": [
+        ["css=.button:nth-child(3) > span > span", "css:finder"],
+        ["xpath=//form[@id='form-validate']/div[3]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "22dda24a-b20c-4c4b-9ea4-109507531a0a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cacd67f2-13cb-45d3-8bb9-6a2c994bfc7e"]
+  }],
+  "urls": ["https://sreeleathers.com/"],
+  "plugins": []
+}

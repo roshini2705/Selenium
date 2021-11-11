@@ -1,0 +1,114 @@
+{
+  "id": "2e4ca73a-c6f6-4b86-930e-ec66c92e8d3a",
+  "version": "2.0",
+  "name": "ShreeLeathers",
+  "url": "https://sreeleathers.com",
+  "tests": [{
+    "id": "dc10a547-90a5-4307-980a-a33dba6a9d1f",
+    "name": "more than 10 digits",
+    "commands": [{
+      "id": "3761fec3-25f0-4db4-b0b7-5fc22e4bf494",
+      "comment": "",
+      "command": "open",
+      "target": "/customer/address",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1327bc35-76e4-4088-b1e7-612195809ddb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1098x568",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdc691ed-5f4a-4773-8204-8f24d2f8efc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icons-config",
+      "targets": [
+        ["css=.icons-config", "css:finder"],
+        ["xpath=//div[@id='sticky-header']/div/div[3]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4028bc5-27a6-4b3e-97cc-901b4cde7cc0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=.first:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//div[@id='sticky-header']/div/div[3]/div[3]/div/div[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sreeleathers.com/customer/account/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74b35b51-0cb5-4d20-8943-ffec878c402f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Edit Address",
+      "targets": [
+        ["linkText=Edit Address", "linkText"],
+        ["css=.col-1 > address > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Edit Address')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://sreeleathers.com/customer/address/edit/id/63620/')]", "xpath:href"],
+        ["xpath=//address/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Edit Address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2883268-3cf8-448d-81e1-e8bccd82c44f",
+      "comment": "",
+      "command": "click",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aab08ad-1285-439c-adaf-2849ccf23436",
+      "comment": "",
+      "command": "type",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "000000000000000"
+    }, {
+      "id": "3e613796-869a-4e46-a275-3e15b39bfa98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(3) > span > span",
+      "targets": [
+        ["css=.button:nth-child(3) > span > span", "css:finder"],
+        ["xpath=//form[@id='form-validate']/div[3]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "43d2794c-e6d9-4107-becb-55bf5bbce2ad",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dc10a547-90a5-4307-980a-a33dba6a9d1f"]
+  }],
+  "urls": ["https://sreeleathers.com/"],
+  "plugins": []
+}

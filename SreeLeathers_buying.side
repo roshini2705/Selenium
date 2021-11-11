@@ -1,0 +1,90 @@
+{
+  "id": "b46539cf-f3d1-49ca-aa4c-a2c3bc9f6237",
+  "version": "2.0",
+  "name": "SreeLeathers",
+  "url": "https://sreeleathersonline.com",
+  "tests": [{
+    "id": "2b863a8b-4987-47c0-a83b-8fdbf35a7766",
+    "name": "SreeLeathers_buying",
+    "commands": [{
+      "id": "3abe7470-9da8-48b0-b2eb-4a670065c4af",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb864966-4473-4a98-9068-6774b8f6b9b1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "966x568",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3849d4d-30d5-4b15-937c-879eb7cd10c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tt-cart > .tt-dropdown-toggle",
+      "targets": [
+        ["css=.tt-cart > .tt-dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div/div/div/div[3]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0feceef-70e0-4010-a90c-4fd8a48ed815",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tt-cart-list > .tt-item:nth-child(1) .tt-title",
+      "targets": [
+        ["css=.tt-cart-list > .tt-item:nth-child(1) .tt-title", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div/div/div/div[3]/div[2]/div/div/div[2]/div/div/div/div/div/a/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Leather Belly Shoe 90260')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d215a1ec-c5be-446a-add3-e47a50eb83f7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,237)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91a8dd8f-d877-4c31-a0ec-82cb471a9872",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prpage-term-conditions-checkbox .box",
+      "targets": [
+        ["css=.prpage-term-conditions-checkbox .box", "css:finder"],
+        ["xpath=//form[@id='product_form_5350054264987']/div[3]/label/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/label/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d929fb24-f06b-4e1d-801a-299f5ddc26da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopify-payment-button__button",
+      "targets": [
+        ["css=.shopify-payment-button__button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='product_form_5350054264987']/div[4]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'BUY NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8306409b-391d-4d5c-877f-ea20470715b6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2b863a8b-4987-47c0-a83b-8fdbf35a7766"]
+  }],
+  "urls": ["https://sreeleathersonline.com/"],
+  "plugins": []
+}

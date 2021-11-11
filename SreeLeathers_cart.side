@@ -1,0 +1,90 @@
+{
+  "id": "0f008a43-41bb-4890-9f78-48ffd7f6854a",
+  "version": "2.0",
+  "name": "SreeLeathers",
+  "url": "https://sreeleathersonline.com",
+  "tests": [{
+    "id": "a0bc1947-7746-4dbd-a01a-63503f7a61a9",
+    "name": "SreeLeathers_cart",
+    "commands": [{
+      "id": "8f4c62ef-b3b8-4629-8700-745a466a7726",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71d45645-00fb-4a10-b54f-871d08560325",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "920x568",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fda9d214-4c96-4ca1-9c91-df7a60c8df93",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,183)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a87d297-b753-4d37-b3fb-bc7d5696ed17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(2) .col-sm-6:nth-child(1) > .respimgsize:nth-child(1) > .tt-description",
+      "targets": [
+        ["css=.col-sm-12:nth-child(2) .col-sm-6:nth-child(1) > .respimgsize:nth-child(1) > .tt-description", "css:finder"],
+        ["xpath=//div[@id='shopify-section-1521704967763']/div/div/div/div[2]/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6251d3a3-93a3-4fb0-854a-44c467b56912",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col-6:nth-child(2) .lazyload",
+      "targets": [
+        ["css=.col-6:nth-child(2) .lazyload", "css:finder"],
+        ["xpath=//img[@alt='Leather Belly Shoe 90260']", "xpath:img"],
+        ["xpath=//div[@id='tt-pageContent']/div/div/div/div[2]/div/div[2]/div[2]/div/div/a[3]/span/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a[3]/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db9c60d3-f0af-4347-981b-b98fb149d54b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-6:nth-child(2) .lazyload",
+      "targets": [
+        ["css=.col-6:nth-child(2) .lazyload", "css:finder"],
+        ["xpath=//img[@alt='Leather Belly Shoe 90260']", "xpath:img"],
+        ["xpath=//div[@id='tt-pageContent']/div/div/div/div[2]/div/div[2]/div[2]/div/div/a[3]/span/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a[3]/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0964565f-d821-46e7-bc77-4c3f927bb989",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tt-row-custom-01:nth-child(4) .btn",
+      "targets": [
+        ["css=.tt-row-custom-01:nth-child(4) .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='product_form_5350054264987']/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6c08b105-16b5-407a-a740-98a450ac8f9a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a0bc1947-7746-4dbd-a01a-63503f7a61a9"]
+  }],
+  "urls": ["https://sreeleathersonline.com/"],
+  "plugins": []
+}
